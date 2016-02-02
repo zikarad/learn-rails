@@ -1,10 +1,10 @@
 class VisitorsController < ApplicationController
 
-def new
-	@owner = Owner.new
-	flash.now[:notice] = 'Welcome!'
-	flash.now[:alert] = 'My birthday - is it soon?'
-#	render 'visitors/new'
-end
+  def new
+    @owner = Owner.new
+    flash.now[:notice] = 'Welcome!'
+    flash.now[:alert] = 'My birthday - is it soon?'
+#   render 'visitors/new'
+  end
 
 end
